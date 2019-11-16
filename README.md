@@ -9,7 +9,7 @@ git clone https://github.com/ct1104/jenkins-plugins-batch-install-update.git
 cd jenkins-install-plugins-shell
 chmod +x install-plugins.sh jenkins-support
 export JENKINS_WAR_PATH=<Jenkins war文件的路径>
-export REF=<Jenkins中plugins文件夹路径>
+export REF=<Jenkins中plugins文件夹路径>     路径包含plugins
 ./install-plugins.sh < plugins.txt
 ```
 
